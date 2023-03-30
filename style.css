@@ -1,0 +1,111 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;    
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 100px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.text-area{
+    height: 48px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+::placeholder{color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    width: auto;
+    height: 430px;
+    background: white;
+    background-image: url("/img/looking-diamond.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 5px;
+    padding-left: 20px;
+    position: fixed;
+    top: 25px;
+    right: 39px;
+    bottom: 5px;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: auto;
+    padding: 2em;
+}
+
+.btn-encriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;   
+    height: auto;
+    width: 180px;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;   
+    cursor: pointer;    
+    height: auto;
+    margin-left: 30px;
+    width: 180px;
+}
+
+.copiar{
+    color : #E5E5E5;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 310px;
+    margin-top: 352px;
+    position: absolute;
+    width: 200px;  
+    height: auto;    
+}
+
+.informacion{    
+    color: #495057;
+    font-size: 18px;
+}
+
+.btn-encriptar:hover, .btn-desencriptar:hover{
+    transform: rotate(2deg);
+}
+
+.copiar:hover{
+    color: #0A3871;
+    background: #D8DFE8;
+    transform: scale(1.2);
+}
+
